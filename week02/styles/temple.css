@@ -1,0 +1,48 @@
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 0;
+}
+
+main {
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 /10%);
+    padding: 10px;
+    background-color: rgb(210, 212, 215);
+    font-size: .9rem
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-size: .9rem;
+}
+
+ul {
+    margin: 10px 20px 0px;
+
+}
+
+h1 {
+    text-decoration: underline;
+}

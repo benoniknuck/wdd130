@@ -10,6 +10,8 @@ aside img {
 main img {
     height: auto;
     width: 150px;
+    border: 1px solid #1e1c1c;
+    box-shadow: 35px grey;
 }
 
 p {
@@ -21,4 +23,25 @@ footer {
     border-top: 1px solid #000;
 
     text-align: center;
+}
+
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 2);
+    padding: 1em;
+    background-color: #eee;
+    color: #1e1c1c;
+    text-align: center;
+
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
 }

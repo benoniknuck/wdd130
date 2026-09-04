@@ -11,7 +11,8 @@ main img {
     height: auto;
     width: 150px;
     border: 1px solid #1e1c1c;
-    box-shadow: 35px grey;
+    box-shadow: 0 0 35px grey;
+    padding: 10px;
 }
 
 p {
@@ -37,7 +38,7 @@ aside {
 }
 
 nav a {
-    color: white;
+    color: #606242;
     padding: 10px;
     display: block;
 }

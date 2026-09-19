@@ -49,12 +49,12 @@ article {
 
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
 
 }
 
-.socials a img{
+.socialmedia a img{
     width: 30px;
 
 

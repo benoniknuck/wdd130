@@ -1,5 +1,8 @@
-main {
+header,
+.grid,
+footer {
     max-width: 840px;
+    margin: 0 auto;
 }
 
 aside img {
@@ -13,6 +16,7 @@ main img {
     border: 1px solid #1e1c1c;
     box-shadow: 0 0 35px grey;
     padding: 10px;
+    float: right;
 }
 
 p {
@@ -34,21 +38,43 @@ aside {
     background-color: #eee;
     color: #1e1c1c;
     text-align: center;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 
 }
 
 nav {
-    background-color: rgb(241, 241, 221);
-    padding: 10px;
+    background-color: rgb(13, 13, 11);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
 nav a {
-    color: #606242;
+
     padding: 10px;
     display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: #000 2px solid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
 }

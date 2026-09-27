@@ -47,10 +47,16 @@ h2 {
 
 }
 
+.pages_buttons ul li {
+    float: 1, 1 auto;
+}
+
 .pages_buttons ul a {
     text-decoration: none;
     display: block;
     border: black;
+    color: black;
+
 }
 
 nav,

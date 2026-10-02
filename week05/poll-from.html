@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/poll-from-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> WDD 130 |  HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+    <form> 
+        <div class="form-item colum2">
+             <label>Full Name: <input type="text" name="fullname" required></label> 
+         </div>
+
+        <div class="form-item colum2">
+           <label>Email: <input type="email" name="email" required></label>
+        </div>
+
+        <div class="form-item colum1">
+            <label for="Browsers">Select your favorite browser:</label>
+            <select id="Browsers" name="Browsers">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+            </select>
+        </div>
+
+        <div class="form-item">
+            <label for="pets"> Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet" >
+        </div> 
+
+        <div class="form-item">
+            <label for ="living places"> list of places you have stay</label>
+            <textarea id="living places" name="living places" rows="5"></textarea>
+        </div>
+
+        <div class="form-item"> 
+            <label for="button"></label>
+            <button type="submit" id="button">Submit poll</button>
+        </div>
+
+    </form>
+    </main>
+     
+    <footer>
+       <p>
+            ©️2026 👨‍💻 Benoni Ben Knuckles 👨‍💻 Monrovia, Liberia
+        </p>
+ 
+    </footer>
+</body>
+</html>
